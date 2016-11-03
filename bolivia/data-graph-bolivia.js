@@ -6,7 +6,7 @@ long_short_data = [
       { 
         "label" : "Bolivia" ,
         "n_palabras" : 30 ,
-        "value" : 0.30
+        "value" : 0.62
       }
     ]
   },
@@ -17,7 +17,7 @@ long_short_data = [
       { 
         "label" : "Bolivia" ,
         "n_palabras" : 24 ,
-        "value" : 0.24
+        "value" : 0.39
       }
     ]
   },
@@ -28,7 +28,7 @@ long_short_data = [
       { 
         "label" : "Bolivia" ,
         "n_palabras" : 13 ,
-        "value" : 0.13
+        "value" : 0.31
       }
     ]
   },
@@ -39,7 +39,7 @@ long_short_data = [
       { 
         "label" : "Bolivia" ,
         "n_palabras" : 31 ,
-        "value" : 0.31
+        "value" : 0.64
       },
     ]
   }
