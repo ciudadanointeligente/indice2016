@@ -28,7 +28,7 @@ long_short_data = [
       { 
         "label" : "Venezuela" ,
         "n_palabras" : 12 ,
-        "value" : 0.7
+        "value" : 0.07
       }
     ]
   },
