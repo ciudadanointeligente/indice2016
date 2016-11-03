@@ -6,7 +6,7 @@ long_short_data = [
       { 
         "label" : "México" ,
         "n_palabras" : 47 ,
-        "value" : 0.47
+        "value" : 0.79
       }
     ]
   },
@@ -17,7 +17,7 @@ long_short_data = [
       { 
         "label" : "México" ,
         "n_palabras" : 46 ,
-        "value" : 0.46
+        "value" : 0.41
       }
     ]
   },
@@ -28,7 +28,7 @@ long_short_data = [
       { 
         "label" : "México" ,
         "n_palabras" : 21 ,
-        "value" : 0.21
+        "value" : 0.44
       }
     ]
   },
@@ -39,7 +39,7 @@ long_short_data = [
       { 
         "label" : "México" ,
         "n_palabras" : 33 ,
-        "value" : 0.33
+        "value" : 0.57
       },
     ]
   }
