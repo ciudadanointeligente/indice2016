@@ -5,7 +5,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Argentina" ,
-        "n_palabras" : 46 ,
+        "n_palabras" : 57 ,
         "value" : 0.57
       }
     ]
@@ -16,7 +16,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Argentina" ,
-        "n_palabras" : 57 ,
+        "n_palabras" : 53 ,
         "value" : 0.53
       }
     ]
@@ -27,7 +27,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Argentina" ,
-        "n_palabras" : 17 ,
+        "n_palabras" : 27 ,
         "value" : 0.27
       }
     ]
@@ -38,7 +38,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Argentina" ,
-        "n_palabras" : 23 ,
+        "n_palabras" : 32 ,
         "value" : 0.32
       },
     ]
