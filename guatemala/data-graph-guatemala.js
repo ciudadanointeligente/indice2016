@@ -6,7 +6,7 @@ long_short_data = [
       { 
         "label" : "Guatemala" ,
         "n_palabras" : 43 ,
-        "value" : 0.43
+        "value" : 0.51
       }
     ]
   },
@@ -17,7 +17,7 @@ long_short_data = [
       { 
         "label" : "Guatemala" ,
         "n_palabras" : 52 ,
-        "value" : 0.52
+        "value" : 0.56
       }
     ]
   },
@@ -28,7 +28,7 @@ long_short_data = [
       { 
         "label" : "Guatemala" ,
         "n_palabras" : 32 ,
-        "value" : 0.32
+        "value" : 0.56
       }
     ]
   },
@@ -39,7 +39,7 @@ long_short_data = [
       { 
         "label" : "Guatemala" ,
         "n_palabras" : 55 ,
-        "value" : 0.55
+        "value" : 0.69
       },
     ]
   }
