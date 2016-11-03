@@ -1,12 +1,12 @@
 long_short_data = [ 
   {
     key: 'Normatividad',
-    color: '#f5292e',
+    color: '#8ac733',
     values: [
       { 
         "label" : "Ecuador" ,
         "n_palabras" : 51 ,
-        "value" : 0.51
+        "value" : 0.62
       }
     ]
   },
@@ -17,7 +17,7 @@ long_short_data = [
       { 
         "label" : "Ecuador" ,
         "n_palabras" : 42 ,
-        "value" : 0.42
+        "value" : 0.46
       }
     ]
   },
@@ -28,7 +28,7 @@ long_short_data = [
       { 
         "label" : "Ecuador" ,
         "n_palabras" : 36 ,
-        "value" : 0.36
+        "value" : 0.47
       }
     ]
   },
@@ -39,7 +39,7 @@ long_short_data = [
       { 
         "label" : "Ecuador" ,
         "n_palabras" : 68 ,
-        "value" : 0.68
+        "value" : 0.73
       },
     ]
   }
