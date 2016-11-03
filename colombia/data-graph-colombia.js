@@ -6,7 +6,7 @@ long_short_data = [
       { 
         "label" : "Colombia" ,
         "n_palabras" : 35 ,
-        "value" : 0.35
+        "value" : 0.54
       }
     ]
   },
@@ -17,7 +17,7 @@ long_short_data = [
       { 
         "label" : "Colombia" ,
         "n_palabras" : 46 ,
-        "value" : 0.46
+        "value" : 0.55
       }
     ]
   },
@@ -28,7 +28,7 @@ long_short_data = [
       { 
         "label" : "Colombia" ,
         "n_palabras" : 25 ,
-        "value" : 0.25
+        "value" : 0.55
       }
     ]
   },
@@ -39,7 +39,7 @@ long_short_data = [
       { 
         "label" : "Colombia" ,
         "n_palabras" : 45 ,
-        "value" : 0.45
+        "value" : 0.52
       },
     ]
   }
