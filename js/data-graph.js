@@ -24,6 +24,11 @@ long_short_data = [
         "value" : 0.54
       } ,
       { 
+        "label" : "Costa Rica" ,
+        "n_palabras" : 882 ,
+        "value" : 0.54
+      } ,
+      { 
         "label" : "Ecuador" ,
         "n_palabras" : 818 ,
         "value" : 0.62
@@ -39,7 +44,22 @@ long_short_data = [
         "value" : 0.79
       } , 
       { 
+        "label" : "Panamá" ,
+        "n_palabras" : 764 ,
+        "value" : 0.53
+      } ,
+      { 
+        "label" : "Paraguay" ,
+        "n_palabras" : 764 ,
+        "value" : 0.53
+      } ,
+      { 
         "label" : "Perú" ,
+        "n_palabras" : 764 ,
+        "value" : 0.53
+      } ,
+      { 
+        "label" : "República Dominicana" ,
         "n_palabras" : 764 ,
         "value" : 0.53
       } ,
@@ -75,6 +95,11 @@ long_short_data = [
         "value" : 0.55
       },
       { 
+        "label" : "Costa Rica" ,
+        "n_palabras" : 1178 ,
+        "value" : 0.55
+      },
+      { 
         "label" : "Ecuador" ,
         "n_palabras" : 1181 ,
         "value" : 0.46
@@ -90,7 +115,22 @@ long_short_data = [
         "value" : 0.41
       }, 
       { 
+        "label" : "Panamá" ,
+        "n_palabras" : 1324 ,
+        "value" : 0.48
+      },
+      { 
+        "label" : "Paraguay" ,
+        "n_palabras" : 1324 ,
+        "value" : 0.48
+      },
+      { 
         "label" : "Perú" ,
+        "n_palabras" : 1324 ,
+        "value" : 0.48
+      },
+      { 
+        "label" : "República Dominicana" ,
         "n_palabras" : 1324 ,
         "value" : 0.48
       },
@@ -126,6 +166,11 @@ long_short_data = [
         "value" : 0.55
       },
       { 
+        "label" : "Costa Rica" ,
+        "n_palabras" : 522 ,
+        "value" : 0.55
+      },
+      { 
         "label" : "Ecuador" ,
         "n_palabras" : 314 ,
         "value" : 0.47
@@ -141,7 +186,22 @@ long_short_data = [
         "value" : 0.44
       }, 
       { 
+        "label" : "Panamá" ,
+        "n_palabras" : 118 ,
+        "value" : 0.37
+      },
+      { 
+        "label" : "Paraguay" ,
+        "n_palabras" : 118 ,
+        "value" : 0.37
+      },
+      { 
         "label" : "Perú" ,
+        "n_palabras" : 118 ,
+        "value" : 0.37
+      },
+      { 
+        "label" : "República Dominicana" ,
         "n_palabras" : 118 ,
         "value" : 0.37
       },
@@ -177,6 +237,11 @@ long_short_data = [
         "value" : 0.52
       },
       { 
+        "label" : "Costa Rica" ,
+        "n_palabras" : 522 ,
+        "value" : 0.52
+      },
+      { 
         "label" : "Ecuador" ,
         "n_palabras" : 314 ,
         "value" : 0.73
@@ -192,7 +257,22 @@ long_short_data = [
         "value" : 0.57
       }, 
       { 
+        "label" : "Panamá" ,
+        "n_palabras" : 118 ,
+        "value" : 0.63
+      },
+      { 
+        "label" : "Paraguay" ,
+        "n_palabras" : 118 ,
+        "value" : 0.63
+      },
+      { 
         "label" : "Perú" ,
+        "n_palabras" : 118 ,
+        "value" : 0.63
+      },
+      { 
+        "label" : "República Dominicana" ,
         "n_palabras" : 118 ,
         "value" : 0.63
       },
