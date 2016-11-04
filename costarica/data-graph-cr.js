@@ -5,7 +5,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Costa Rica" ,
-        "n_palabras" : 35 ,
+        "n_palabras" : 54 ,
         "value" : 0.54
       }
     ]
@@ -16,7 +16,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Costa Rica" ,
-        "n_palabras" : 46 ,
+        "n_palabras" : 78 ,
         "value" : 0.78
       }
     ]
@@ -27,7 +27,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Costa Rica" ,
-        "n_palabras" : 25 ,
+        "n_palabras" : 79 ,
         "value" : 0.79
       }
     ]
@@ -38,7 +38,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Costa Rica" ,
-        "n_palabras" : 45 ,
+        "n_palabras" : 65 ,
         "value" : 0.65
       },
     ]
