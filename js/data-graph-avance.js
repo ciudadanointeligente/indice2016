@@ -77,7 +77,7 @@ long_short_data = [
       { 
         "label" : "Costa Rica" ,
         "n_palabras" : 1178 ,
-        "value" : 0.54
+        "value" : 0.72
       },
       { 
         "label" : "Ecuador" ,
@@ -97,12 +97,12 @@ long_short_data = [
       { 
         "label" : "Panamá" ,
         "n_palabras" : 1324 ,
-        "value" : 0.50
+        "value" : 0.44
       },
       { 
         "label" : "Paraguay" ,
         "n_palabras" : 1324 ,
-        "value" : 0.50
+        "value" : 0.62
       },
       { 
         "label" : "Perú" ,
@@ -112,7 +112,7 @@ long_short_data = [
       { 
         "label" : "República Dominicana" ,
         "n_palabras" : 1324 ,
-        "value" : 0.50
+        "value" : 0.37
       },
       { 
         "label" : "Venezuela" ,
