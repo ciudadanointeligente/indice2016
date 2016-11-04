@@ -5,7 +5,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Panamá" ,
-        "n_palabras" : 35 ,
+        "n_palabras" : 45 ,
         "value" : 0.45
       }
     ]
@@ -16,7 +16,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Panamá" ,
-        "n_palabras" : 46 ,
+        "n_palabras" : 38 ,
         "value" : 0.38
       }
     ]
@@ -27,7 +27,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Panamá" ,
-        "n_palabras" : 25 ,
+        "n_palabras" : 36 ,
         "value" : 0.36
       }
     ]
@@ -38,7 +38,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Panamá" ,
-        "n_palabras" : 45 ,
+        "n_palabras" : 58 ,
         "value" : 0.58
       },
     ]
