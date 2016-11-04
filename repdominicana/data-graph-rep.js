@@ -5,7 +5,7 @@ long_short_data = [
     values: [
       { 
         "label" : "República Dominicana" ,
-        "n_palabras" : 35 ,
+        "n_palabras" : 41 ,
         "value" : 0.41
       }
     ]
@@ -16,7 +16,7 @@ long_short_data = [
     values: [
       { 
         "label" : "República Dominicana" ,
-        "n_palabras" : 46 ,
+        "n_palabras" : 41 ,
         "value" : 0.41
       }
     ]
@@ -27,7 +27,7 @@ long_short_data = [
     values: [
       { 
         "label" : "República Dominicana" ,
-        "n_palabras" : 25 ,
+        "n_palabras" : 21 ,
         "value" : 0.21
       }
     ]
@@ -38,7 +38,7 @@ long_short_data = [
     values: [
       { 
         "label" : "República Dominicana" ,
-        "n_palabras" : 45 ,
+        "n_palabras" : 47 ,
         "value" : 0.47
       },
     ]
