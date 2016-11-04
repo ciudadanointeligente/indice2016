@@ -5,7 +5,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Chile" ,
-        "n_palabras" : 49 ,
+        "n_palabras" : 57 ,
         "value" : 0.57
       }
     ]
@@ -16,7 +16,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Chile" ,
-        "n_palabras" : 49 ,
+        "n_palabras" : 75 ,
         "value" : 0.75
       }
     ]
@@ -27,7 +27,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Chile" ,
-        "n_palabras" : 50 ,
+        "n_palabras" : 61 ,
         "value" : 0.61
       }
     ]
@@ -38,7 +38,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Chile" ,
-        "n_palabras" : 65 ,
+        "n_palabras" : 59 ,
         "value" : 0.59
       },
     ]
