@@ -62,7 +62,7 @@ long_short_data = [
         "label" : "República Dominicana" ,
         "n_palabras" : 649 ,
         "value" : 0.19
-      }
+      } ,
       { 
         "label" : "Venezuela" ,
         "n_palabras" : 649 ,
