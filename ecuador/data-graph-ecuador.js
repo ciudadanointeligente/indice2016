@@ -5,7 +5,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Ecuador" ,
-        "n_palabras" : 51 ,
+        "n_palabras" : 62 ,
         "value" : 0.62
       }
     ]
@@ -16,7 +16,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Ecuador" ,
-        "n_palabras" : 42 ,
+        "n_palabras" : 46 ,
         "value" : 0.46
       }
     ]
@@ -27,7 +27,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Ecuador" ,
-        "n_palabras" : 36 ,
+        "n_palabras" : 47 ,
         "value" : 0.47
       }
     ]
@@ -38,7 +38,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Ecuador" ,
-        "n_palabras" : 68 ,
+        "n_palabras" : 73 ,
         "value" : 0.73
       },
     ]
