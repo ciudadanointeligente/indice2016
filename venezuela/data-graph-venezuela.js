@@ -5,7 +5,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Venezuela" ,
-        "n_palabras" : 32 ,
+        "n_palabras" : 44 ,
         "value" : 0.44
       }
     ]
@@ -16,7 +16,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Venezuela" ,
-        "n_palabras" : 12 ,
+        "n_palabras" : 20 ,
         "value" : 0.20
       }
     ]
@@ -27,7 +27,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Venezuela" ,
-        "n_palabras" : 12 ,
+        "n_palabras" : 7 ,
         "value" : 0.07
       }
     ]
@@ -38,7 +38,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Venezuela" ,
-        "n_palabras" : 27 ,
+        "n_palabras" : 25 ,
         "value" : 0.25
       },
     ]
