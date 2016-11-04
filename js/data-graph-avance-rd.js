@@ -6,22 +6,22 @@ long_short_data_rd = [
       { 
         "label" : "Normatividad" ,
         "n_palabras" : 1246 ,
-        "value" : 0.57
+        "value" : 0.41
       },
       { 
         "label" : "Labor del Congreso" ,
         "n_palabras" : 861 ,
-        "value" : 0.53
+        "value" : 0.41
       },
       { 
         "label" : "Presupuesto y Gestión" ,
         "n_palabras" : 42 ,
-        "value" : 0.27
+        "value" : 0.21
       },
       { 
         "label" : "Participación Ciudadana" ,
         "n_palabras" : 1178 ,
-        "value" : 0.32
+        "value" : 0.47
       }
     ]
   }
