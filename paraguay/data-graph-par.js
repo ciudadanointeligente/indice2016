@@ -5,7 +5,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Paraguay" ,
-        "n_palabras" : 35 ,
+        "n_palabras" : 44 ,
         "value" : 0.44
       }
     ]
@@ -16,7 +16,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Paraguay" ,
-        "n_palabras" : 46 ,
+        "n_palabras" : 66 ,
         "value" : 0.66
       }
     ]
@@ -27,7 +27,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Paraguay" ,
-        "n_palabras" : 25 ,
+        "n_palabras" : 53 ,
         "value" : 0.53
       }
     ]
@@ -38,7 +38,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Paraguay" ,
-        "n_palabras" : 45 ,
+        "n_palabras" : 74 ,
         "value" : 0.74
       },
     ]
