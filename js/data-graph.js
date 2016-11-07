@@ -291,7 +291,7 @@ nv.addGraph(function() {
   chart = nv.models.multiBarHorizontalChart()
       .x(function(d) { return d.label })
       .y(function(d) { return d.value })
-      .margin({top: 0, right: 0, bottom: 0, left: 230})
+      .margin({top: 0, right: 0, bottom: 0, left: 130})
       .showValues(true)
       .tooltip(false)
       // .barColor(d3.scale.category20().range())
