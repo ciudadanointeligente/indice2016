@@ -59,7 +59,7 @@ long_short_data = [
         "value" : 0.53
       } ,
       { 
-        "label" : "República Dominicana" ,
+        "label" : "R. Dominicana" ,
         "n_palabras" : 764 ,
         "value" : 0.41
       } ,
@@ -130,7 +130,7 @@ long_short_data = [
         "value" : 0.48
       },
       { 
-        "label" : "República Dominicana" ,
+        "label" : "R. Dominicana" ,
         "n_palabras" : 1324 ,
         "value" : 0.41
       },
@@ -201,7 +201,7 @@ long_short_data = [
         "value" : 0.37
       },
       { 
-        "label" : "República Dominicana" ,
+        "label" : "R. Dominicana" ,
         "n_palabras" : 118 ,
         "value" : 0.21
       },
@@ -272,7 +272,7 @@ long_short_data = [
         "value" : 0.63
       },
       { 
-        "label" : "República Dominicana" ,
+        "label" : "R. Dominicana" ,
         "n_palabras" : 118 ,
         "value" : 0.47
       },
