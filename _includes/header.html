@@ -1,27 +1,104 @@
-<header class="site-header">
+<header>
+  <div class="container">
+    <div class="header clearfix">
+      <h1 class="title"><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
 
-  <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
+      <nav class="site-nav">
+          <a href="#" class="menu-icon">
+            <svg viewBox="0 0 18 15">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </a>
 
       <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
+              <ul class="nav nav-tabs" role="tablist">
+                <li>
+                  <a href="{{ site.baseurl }}/avance.html">Avances 2014-2016</a>
+                </li>
+                <li>
+                  <a href="{{ site.baseurl }}/comparativo.html">Comparativo por país</a>
+                </li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    Por país <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li>
+                      <a href="{{ site.baseurl }}/argentina">Argentina</a>
+                    </li>
+                    <li>
+                      <a href="{{ site.baseurl }}/bolivia">Bolivia</a>
+                    </li>
+                    <li>
+                      <a href="{{ site.baseurl }}/chile">Chile</a>
+                    </li>
+                    <li>
+                      <a href="{{ site.baseurl }}/colombia">Colombia</a>
+                    </li>
+                    <li>
+                      <a href="{{ site.baseurl }}/costarica">Costa Rica</a>
+                    </li>
+                    <li>
+                      <a href="{{ site.baseurl }}/ecuador">Ecuador</a>
+                    </li>
+                    <li>
+                      <a href="{{ site.baseurl }}/guatemala">Guatemala</a>
+                    </li>
+                    <li>
+                      <a href="{{ site.baseurl }}/mexico">México</a>
+                    </li>
+                    <li>
+                      <a href="{{ site.baseurl }}/peru">Perú</a>
+                    </li>
+                    <li>
+                      <a href="{{ site.baseurl }}/panama">Panamá</a>
+                    </li>
+                    <li>
+                      <a href="{{ site.baseurl }}/paraguay">Paraguay</a>
+                    </li>
+                    <li>
+                      <a href="{{ site.baseurl }}/repdominicana">República Dominicana</a>
+                    </li>
+                    <li>
+                      <a href="{{ site.baseurl }}/venezuela">Venezuela</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Documentación <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li>
+                        <a href="FALTA RED" target="_blank">Informe</a>
+                      </li>
+                      <li>
+                        <a href="https://drive.google.com/drive/folders/0B4qrvCqRwqmzbTFkWEl1ajBmeFk?usp=sharing" target="_blank">Respuestas Cuestionario</a>
+                      </li>
+                      <li>
+                        <a href="https://docs.google.com/spreadsheets/d/14yDlpzzbzwBxxQlCz8PvlXyiaBsqhXXKSuSFMiqgsic/edit?usp=sharing" target="_blank">Resultados (valores)</a>
+                      </li>
+                      <li>
+                        <a>---</a>
+                      </li>
+                      <li>
+                        <a href="https://docs.google.com/document/d/1yeBOBtde_HB6A7R7HB5n64p-ClmnTvdAanHgk_s919w/edit?usp=sharing" target="_blank">Metodología</a>
+                      </li>
+                      <li>
+                        <a href="https://docs.google.com/spreadsheets/d/12PWg-GbZ6rgmcV1EGXUaCWcZ1_ZNP2Tfci2ULRxpI1E/edit?usp=sharing" target="_blank">Cuestionario</a>
+                      </li>
+                      <li>
+                        <a href="https://docs.google.com/document/d/1JSr7CSxO0CU_qFlbAKu2ampjvOFvd8BdH1VPgJtXlbY/edit?usp=sharing" target="_blank">Nuevas preguntas 2016</a>
+                      </li>
+                      <li>
+                        <a href="https://docs.google.com/spreadsheets/d/1aPjLMcZOEIEOQMc2GMFGIeSA_MxcyIqT1PE3r3F9U-o/edit?usp=sharing" target="_blank">Libro de Códigos</a>
+                      </li>
+                    </ul>
+                </li>
+              </ul>
+            </div>
+
     </nav>
-
+    </div>
   </div>
-
 </header>
