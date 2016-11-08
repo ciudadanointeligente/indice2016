@@ -151,6 +151,10 @@ svg {
   height:100%;
 }
 
+.map svg {
+  width: auto;
+  height: auto;
+}
 
 svg text {
   font: normal 12px Arial;

@@ -230,10 +230,6 @@ body {
   text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
 
-body.home {
-  background-color: #ceecf4;
-}
-
 p { margin: 1em 0; }
 
 a         { color: #006fbd; }
@@ -279,107 +275,94 @@ a:hover   { color: #00b4f2; }
   list-style: none;
 }
 
-.map .porcentaje {
-  position: relative;
-  font-size: 28px;
-  width: 90px;
-  padding: 29px 23px;
-  color: #fff;
-}
-
 .map a {
   font-size: 18px;
   text-decoration: none;
 }
 
-a.mexico {
-  position: absolute;
-  left: 10px;
-  top: 60px;
-}
-
-a.mexico .porcentaje {
-  background: url(../img/37.png);
-}
-
-a.guatemala {
-  position: absolute;
-  left: 70px;
-  top: 136px;
-}
-
-a.guatemala .porcentaje {
-  background: url(../img/46.png);
-}
-
-a.colombia {
-  position: absolute;
-  left: 250px;
-  top: 180px;
-}
-
-a.colombia .porcentaje {
-  background: url(../img/38.png);
-}
-
-a.venezuela {
-  position: absolute;
-  left: 440px;
-  top: 130px;
-}
-
-a.venezuela .porcentaje {
-  background: url(../img/21.png) no-repeat;
-}
-
-a.ecuador {
-  position: absolute;
-  left: 190px;
-  top: 270px;
-}
-
-a.ecuador .porcentaje {
-  background: url(../img/49.png);
-}
-
-a.peru {
-  position: absolute;
-  left: 270px;
-  top: 370px;
-}
-
-a.peru .porcentaje {
-  background: url(../img/55.png);
+span.num {
+    position: absolute;
+    color: white;
+    font-weight: bold;
 }
 
 a.bolivia {
   position: absolute;
-  left: 470px;
+  left: 420px;
   top: 390px;
-}
-
-a.bolivia .porcentaje {
-  background: url(../img/25.png) no-repeat;
 }
 
 a.chile {
   position: absolute;
-  left: 310px;
-  top: 600px;
+  left: 340px;
+  top: 640px;
 }
 
-a.chile .porcentaje {
-  background: url(../img/53.png);
+a.colombia {
+  position: absolute;
+  left: 340px;
+  top: 200px;
+}
+
+a.ecuador {
+  position: absolute;
+  left: 260px;
+  top: 245px;
+}
+
+a.mexico {
+  position: absolute;
+  left: 70px;
+  top: 30px;
+}
+
+a.repdominicana {
+  position: absolute;
+  left: 370px;
+  top: 40px;
+}
+
+a.panama {
+  position: absolute;
+  left: 278px;
+  top: 150px;
+}
+
+a.guatemala {
+  position: absolute;
+  left: 150px;
+  top: 70px;
+}
+
+
+a.costarica {
+    position: absolute;
+    top: 140px;
+    left: 180px;
+}
+
+a.paraguay {
+  position: absolute;
+  top: 450px;
+  left: 480px;
+}
+
+a.peru {
+  position: absolute;
+  left: 310px;
+  top: 350px;
+}
+
+a.venezuela {
+  position: absolute;
+  left: 420px;
+  top: 170px;
 }
 
 a.argentina {
   position: absolute;
-  left: 460px;
-  top: 680px;
-}
-
-a.argentina .porcentaje {
-  background: url(../img/36.png) no-repeat;
+  left: 434px;
+  top: 590px;
 }
 
 a.uruguay {
