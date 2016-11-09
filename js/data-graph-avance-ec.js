@@ -1,7 +1,7 @@
 long_short_data_ec = [ 
   {
     key: '2014',
-    color: '#00b4f2',
+    color: '#45171D',
     values: [
       { 
         "label" : "Normatividad" ,

@@ -1,7 +1,7 @@
 long_short_data = [ 
   {
     key: 'Normatividad',
-    color: '#8ac733',
+    color: '#FECEA8',
     values: [
       { 
         "label" : "Perú" ,
@@ -12,7 +12,7 @@ long_short_data = [
   },
   {
     key: 'Labor del Congreso o Asamblea',
-    color: '#00a64b',
+    color: '#FF847C',
     values: [
       { 
         "label" : "Perú" ,
@@ -23,7 +23,7 @@ long_short_data = [
   },
   {
     key: 'Presupuesto y Gestión Administrativa',
-    color: '#006fbd',
+    color: '#ED5665',
     values: [
       { 
         "label" : "Perú" ,
@@ -34,7 +34,7 @@ long_short_data = [
   },
   {
     key: 'Participación, atención ciudadana y rendición de cuentas',
-    color: '#00b4f2',
+    color: '#45171D',
     values: [
       { 
         "label" : "Perú" ,
