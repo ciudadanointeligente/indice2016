@@ -1,7 +1,7 @@
 long_short_data_cr = [ 
   {
     key: '2016',
-    color: '#E84A5F',
+    color: '#00b4f2',
     values: [
       { 
         "label" : "Normatividad" ,
