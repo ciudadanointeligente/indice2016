@@ -1,7 +1,7 @@
 long_short_data_gu = [ 
   {
     key: '2014',
-    color: '#45171D',
+    color: '#00b4f2',
     values: [
       { 
         "label" : "Normatividad" ,
