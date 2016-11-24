@@ -16,8 +16,8 @@ long_short_data = [
     values: [
       { 
         "label" : "República Dominicana" ,
-        "n_palabras" : 41 ,
-        "value" : 0.41
+        "n_palabras" : 40 ,
+        "value" : 0.40
       }
     ]
   },

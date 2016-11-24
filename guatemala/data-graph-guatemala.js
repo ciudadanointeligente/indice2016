@@ -5,8 +5,8 @@ long_short_data = [
     values: [
       { 
         "label" : "Guatemala" ,
-        "n_palabras" : 51 ,
-        "value" : 0.51
+        "n_palabras" : 52 ,
+        "value" : 0.52
       }
     ]
   },

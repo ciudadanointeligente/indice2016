@@ -11,17 +11,17 @@ long_short_data = [
       { 
         "label" : "Bolivia" ,
         "n_palabras" : 1679 ,
-        "value" : 0.62
+        "value" : 0.53
       } ,
       { 
         "label" : "Chile" ,
         "n_palabras" : 904 ,
-        "value" : 0.57
+        "value" : 0.53
       } ,
       { 
         "label" : "Colombia" ,
         "n_palabras" : 882 ,
-        "value" : 0.54
+        "value" : 0.56
       } ,
       { 
         "label" : "Costa Rica" ,
@@ -31,12 +31,12 @@ long_short_data = [
       { 
         "label" : "Ecuador" ,
         "n_palabras" : 818 ,
-        "value" : 0.62
+        "value" : 0.63
       } ,
       { 
         "label" : "Guatemala" ,
         "n_palabras" : 806 ,
-        "value" : 0.51
+        "value" : 0.52
       } ,
       { 
         "label" : "México" ,
@@ -82,17 +82,17 @@ long_short_data = [
       { 
         "label" : "Bolivia" ,
         "n_palabras" : 861 ,
-        "value" : 0.39
+        "value" : 0.34
       },
       { 
         "label" : "Chile" ,
         "n_palabras" : 42 ,
-        "value" : 0.75
+        "value" : 0.71
       },
       { 
         "label" : "Colombia" ,
         "n_palabras" : 1178 ,
-        "value" : 0.55
+        "value" : 0.60
       },
       { 
         "label" : "Costa Rica" ,
@@ -112,7 +112,7 @@ long_short_data = [
       { 
         "label" : "México" ,
         "n_palabras" : 301 ,
-        "value" : 0.41
+        "value" : 0.50
       }, 
       { 
         "label" : "Panamá" ,
@@ -132,7 +132,7 @@ long_short_data = [
       { 
         "label" : "R. Dominicana" ,
         "n_palabras" : 1324 ,
-        "value" : 0.41
+        "value" : 0.40
       },
       { 
         "label" : "Venezuela" ,
@@ -153,12 +153,12 @@ long_short_data = [
       { 
         "label" : "Bolivia" ,
         "n_palabras" : 1326 ,
-        "value" : 0.31
+        "value" : 0.30
       },
       { 
         "label" : "Chile" ,
         "n_palabras" : 506 ,
-        "value" : 0.61
+        "value" : 0.55
       },
       { 
         "label" : "Colombia" ,
@@ -183,7 +183,7 @@ long_short_data = [
       { 
         "label" : "México" ,
         "n_palabras" : 339 ,
-        "value" : 0.44
+        "value" : 0.38
       }, 
       { 
         "label" : "Panamá" ,
@@ -224,12 +224,12 @@ long_short_data = [
       { 
         "label" : "Bolivia" ,
         "n_palabras" : 1326 ,
-        "value" : 0.64
+        "value" : 0.62
       },
       { 
         "label" : "Chile" ,
         "n_palabras" : 506 ,
-        "value" : 0.59
+        "value" : 0.64
       },
       { 
         "label" : "Colombia" ,
@@ -254,7 +254,7 @@ long_short_data = [
       { 
         "label" : "México" ,
         "n_palabras" : 339 ,
-        "value" : 0.57
+        "value" : 0.65
       }, 
       { 
         "label" : "Panamá" ,

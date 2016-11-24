@@ -11,7 +11,7 @@ long_short_data_rd = [
       { 
         "label" : "Labor del Congreso" ,
         "n_palabras" : 861 ,
-        "value" : 0.41
+        "value" : 0.40
       },
       { 
         "label" : "Presupuesto y Gestión" ,

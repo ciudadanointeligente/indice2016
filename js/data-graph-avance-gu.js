@@ -6,22 +6,22 @@ long_short_data_gu = [
       { 
         "label" : "Normatividad" ,
         "n_palabras" : 2160 ,
-        "value" : 0.46
+        "value" : 0.49
       } ,
       { 
         "label" : "Labor del Congreso" ,
         "n_palabras" : 1679 ,
-        "value" : 0.52
+        "value" : 0.55
       } ,
       { 
         "label" : "Presupuesto y Gestión" ,
         "n_palabras" : 904 ,
-        "value" : 0.32
+        "value" : 0.41
       } ,
       { 
         "label" : "Participación Ciudadana" ,
         "n_palabras" : 882 ,
-        "value" : 0.55
+        "value" : 0.56
       }
     ]
   },
@@ -32,7 +32,7 @@ long_short_data_gu = [
       { 
         "label" : "Normatividad" ,
         "n_palabras" : 1246 ,
-        "value" : 0.51
+        "value" : 0.52
       },
       { 
         "label" : "Labor del Congreso" ,
