@@ -1,87 +1,101 @@
-long_short_data = [ 
-  {
-    key: 'Normatividad',
-    color: '#FECEA8',
-    values: [
-      { 
-        "label" : "México" ,
-        "n_palabras" : 79 ,
-        "value" : 0.79
-      }
-    ]
-  },
-  {
-    key: 'Labor del Congreso o Asamblea',
-    color: '#FF847C',
-    values: [
-      { 
-        "label" : "México" ,
-        "n_palabras" : 50 ,
-        "value" : 0.50
-      }
-    ]
-  },
-  {
-    key: 'Presupuesto y Gestión Administrativa',
-    color: '#ED5665',
-    values: [
-      { 
-        "label" : "México" ,
-        "n_palabras" : 38 ,
-        "value" : 0.38
-      }
-    ]
-  },
-  {
-    key: 'Participación, atención ciudadana y rendición de cuentas',
-    color: '#45171D',
-    values: [
-      { 
-        "label" : "México" ,
-        "n_palabras" : 65 ,
-        "value" : 0.65
-      },
-    ]
-  }
-];
-
-
-var chart;
-nv.addGraph(function() {
-  chart = nv.models.multiBarHorizontalChart()
-      .x(function(d) { return d.label })
-      .y(function(d) { return d.value })
-      .margin({top: 0, right: 0, bottom: 0, left: 0})
-      .showValues(true)
-      // .showLegend(false)
-      .tooltip(function(key, x, y, e, graph, n_palabras, link_ley) {
-        var text_for_twitter = encodeURIComponent(y + '% de cumplimiento en ' + x + ',');
-        return '<p>' + e.point.label + ' tiene un ' + e.point.n_palabras + '% de transparencia en ' + key + '</p>'
-               // '<p> De las ' + e.point.n_promesas + ' promesas en ' + x + ' entre ' + key + '.</p>' +
-               // '<div><a target="_blank" href="'+ e.point.link_ley +'">¿Cómo cumple la promesa? </a></div>'
-               // '<div style="float:right;"><a href="https://twitter.com/share?text='+text_for_twitter+'&via=ciudadanoi&hashtags=21mayo" target="_blank" class="twitter-share-button"><i class="fa fa-twitter"></i> Twittear</a></div>'
-    })
-      // .barColor(d3.scale.category20c().range())
-      .transitionDuration(250)
-      .stacked(false)
-      .showControls(false);
-
-  chart.valueFormat(d3.format('%'));
-  chart.xAxis
-      .showMaxMin(false)
-
-  // chart.yAxis
-  //     .tickFormat(d3.format('%'));
-
-  chart.forceY([0,1]);
-
-  d3.select('#chartMexico svg')
-      .datum(long_short_data)
-      .call(chart);
-
-  nv.utils.windowResize(chart.update);
-
-  chart.dispatch.on('stateChange', function(e) { nv.log('New State:', JSON.stringify(e)); });
-
-  return chart;
-});
+long_short_data = [
+    {
+        "color": "#FECEA8",
+        "desgloce": {
+            "Normatividad_1": "75%",
+            "Normatividad_10": "100%",
+            "Normatividad_11": "0%",
+            "Normatividad_12": "67%",
+            "Normatividad_13": "37%",
+            "Normatividad_14": "50%",
+            "Normatividad_15": "100%",
+            "Normatividad_2": "100%",
+            "Normatividad_3": "75%",
+            "Normatividad_4": "100%",
+            "Normatividad_5": "100%",
+            "Normatividad_6": "100%",
+            "Normatividad_7": "100%",
+            "Normatividad_8": "90%",
+            "Normatividad_9": "93%"
+        },
+        "key": "Normatividad",
+        "values": [
+            {
+                "label": "M\u00e9xico",
+                "n_palabras": 79,
+                "value": 0.79
+            }
+        ]
+    },
+    {
+        "color": "#FF847C",
+        "desgloce": {
+            "Labor_1": "84%",
+            "Labor_10": "68%",
+            "Labor_11": "0%",
+            "Labor_12": "67%",
+            "Labor_13": "0%",
+            "Labor_2": "82%",
+            "Labor_3": "82%",
+            "Labor_4": "77%",
+            "Labor_5": "80%",
+            "Labor_6": "69%",
+            "Labor_7": "17%",
+            "Labor_8": "17%",
+            "Labor_9": "0%"
+        },
+        "key": "Labor del Congreso o Asamblea",
+        "values": [
+            {
+                "label": "M\u00e9xico",
+                "n_palabras": 50,
+                "value": 0.5
+            }
+        ]
+    },
+    {
+        "color": "#ED5665",
+        "desgloce": {
+            "Presupuesto_1": "50%",
+            "Presupuesto_10": "0%",
+            "Presupuesto_2": "74%",
+            "Presupuesto_3": "17%",
+            "Presupuesto_4": "71%",
+            "Presupuesto_5": "41%",
+            "Presupuesto_6": "43%",
+            "Presupuesto_7": "0%",
+            "Presupuesto_8": "31%",
+            "Presupuesto_9": "66%"
+        },
+        "key": "Presupuesto y Gesti\u00f3n Administrativa",
+        "values": [
+            {
+                "label": "M\u00e9xico",
+                "n_palabras": 39,
+                "value": 0.39
+            }
+        ]
+    },
+    {
+        "color": "#45171D",
+        "desgloce": {
+            "Participacion_1": "83%",
+            "Participacion_2": "100%",
+            "Participacion_3": "83%",
+            "Participacion_4": "75%",
+            "Participacion_5": "50%",
+            "Participacion_6": "81%",
+            "Participacion_7": "48%",
+            "Participacion_8": "67%",
+            "Participacion_9": "0%\n"
+        },
+        "key": "Participaci\u00f3n, atenci\u00f3n ciudadana y rendici\u00f3n de cuentas",
+        "values": [
+            {
+                "label": "M\u00e9xico",
+                "n_palabras": 65,
+                "value": 0.65
+            }
+        ]
+    }
+]
