@@ -19,6 +19,8 @@ long_short_data = [
             "Normatividad_9": "88%"
         },
         "key": "Normatividad",
+        "key_slug": "Normatividad",
+        "key_slug_value": "54",
         "values": [
             {
                 "label": "Costa Rica",
@@ -45,6 +47,8 @@ long_short_data = [
             "Labor_9": "74%"
         },
         "key": "Labor del Congreso o Asamblea",
+        "key_slug": "Labor",
+        "key_slug_value": "78",
         "values": [
             {
                 "label": "Costa Rica",
@@ -68,6 +72,8 @@ long_short_data = [
             "Presupuesto_9": "79%"
         },
         "key": "Presupuesto y Gesti\u00f3n Administrativa",
+        "key_slug": "Presupuesto",
+        "key_slug_value": "79",
         "values": [
             {
                 "label": "Costa Rica",
@@ -90,6 +96,8 @@ long_short_data = [
             "Participacion_9": "50%\n"
         },
         "key": "Participaci\u00f3n, atenci\u00f3n ciudadana y rendici\u00f3n de cuentas",
+        "key_slug": "Participacion",
+        "key_slug_value": "65",
         "values": [
             {
                 "label": "Costa Rica",

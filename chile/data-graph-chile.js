@@ -19,6 +19,8 @@ long_short_data = [
             "Normatividad_9": "53%"
         },
         "key": "Normatividad",
+        "key_slug": "Normatividad",
+        "key_slug_value": "53",
         "values": [
             {
                 "label": "Chile",
@@ -45,6 +47,8 @@ long_short_data = [
             "Labor_9": "34%"
         },
         "key": "Labor del Congreso o Asamblea",
+        "key_slug": "Labor",
+        "key_slug_value": "71",
         "values": [
             {
                 "label": "Chile",
@@ -68,6 +72,8 @@ long_short_data = [
             "Presupuesto_9": "69%"
         },
         "key": "Presupuesto y Gesti\u00f3n Administrativa",
+        "key_slug": "Presupuesto",
+        "key_slug_value": "61",
         "values": [
             {
                 "label": "Chile",
@@ -90,6 +96,8 @@ long_short_data = [
             "Participacion_9": "63%\n"
         },
         "key": "Participaci\u00f3n, atenci\u00f3n ciudadana y rendici\u00f3n de cuentas",
+        "key_slug": "Participacion",
+        "key_slug_value": "64",
         "values": [
             {
                 "label": "Chile",

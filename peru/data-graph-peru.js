@@ -19,6 +19,8 @@ long_short_data = [
             "Normatividad_9": "78%"
         },
         "key": "Normatividad",
+        "key_slug": "Normatividad",
+        "key_slug_value": "53",
         "values": [
             {
                 "label": "Per\u00fa",
@@ -45,6 +47,8 @@ long_short_data = [
             "Labor_9": "0%"
         },
         "key": "Labor del Congreso o Asamblea",
+        "key_slug": "Labor",
+        "key_slug_value": "48",
         "values": [
             {
                 "label": "Per\u00fa",
@@ -68,6 +72,8 @@ long_short_data = [
             "Presupuesto_9": "58%"
         },
         "key": "Presupuesto y Gesti\u00f3n Administrativa",
+        "key_slug": "Presupuesto",
+        "key_slug_value": "37",
         "values": [
             {
                 "label": "Per\u00fa",
@@ -90,6 +96,8 @@ long_short_data = [
             "Participacion_9": "70%\n"
         },
         "key": "Participaci\u00f3n, atenci\u00f3n ciudadana y rendici\u00f3n de cuentas",
+        "key_slug": "Participacion",
+        "key_slug_value": "63",
         "values": [
             {
                 "label": "Per\u00fa",

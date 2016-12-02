@@ -19,6 +19,8 @@ long_short_data = [
             "Normatividad_9": "93%"
         },
         "key": "Normatividad",
+        "key_slug": "Normatividad",
+        "key_slug_value": "41",
         "values": [
             {
                 "label": "Rep\u00fablica Dominicana",
@@ -45,6 +47,8 @@ long_short_data = [
             "Labor_9": "51%"
         },
         "key": "Labor del Congreso o Asamblea",
+        "key_slug": "Labor",
+        "key_slug_value": "40",
         "values": [
             {
                 "label": "Rep\u00fablica Dominicana",
@@ -68,6 +72,8 @@ long_short_data = [
             "Presupuesto_9": "32%"
         },
         "key": "Presupuesto y Gesti\u00f3n Administrativa",
+        "key_slug": "Presupuesto",
+        "key_slug_value": "21",
         "values": [
             {
                 "label": "Rep\u00fablica Dominicana",
@@ -90,6 +96,8 @@ long_short_data = [
             "Participacion_9": "100%\n"
         },
         "key": "Participaci\u00f3n, atenci\u00f3n ciudadana y rendici\u00f3n de cuentas",
+        "key_slug": "Participacion",
+        "key_slug_value": "47",
         "values": [
             {
                 "label": "Rep\u00fablica Dominicana",

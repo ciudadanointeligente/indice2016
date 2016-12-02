@@ -55,14 +55,14 @@
     <table id="myTable" class="tablesorter table table-striped table-bordered">
       <thead>
         <tr>
-          <th class="warning">Normatividad</th>
-          <th class="warning Normatividad">57%</th>
-          <th class="danger">Labor del Congreso o Asamblea</th>
-          <th class="danger Labor">53%</th>
+          <th class="danger">Normatividad</th>
+          <th class="danger Normatividad"></th>
+          <th class="warning">Labor del Congreso o Asamblea</th>
+          <th class="warning Labor"></th>
           <th class="info">Presupuesto y Gestión Administrativa</th>
-          <th class="info Presupuesto">27%</th>
+          <th class="info Presupuesto"></th>
           <th class="success">Mecanismos de participación, atención ciudadana y rendición de cuentas</th>
-          <th class="success Participacion">32%</th>
+          <th class="success Participacion"></th>
         </tr>
       </thead>
       <tbody>
@@ -233,6 +233,8 @@ function desglozar(){
 			$('.' + index).text(value);
 			console.log(index, value)
 		})
+    console.log(value.key_slug, value.key_slug_value);
+    $('.' + value.key_slug).text(value.key_slug_value + '%')
 	})
 }
 desglozar();

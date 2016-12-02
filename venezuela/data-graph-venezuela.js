@@ -19,6 +19,8 @@ long_short_data = [
             "Normatividad_9": "90%"
         },
         "key": "Normatividad",
+        "key_slug": "Normatividad",
+        "key_slug_value": "44",
         "values": [
             {
                 "label": "Venezuela",
@@ -45,6 +47,8 @@ long_short_data = [
             "Labor_9": "17%"
         },
         "key": "Labor del Congreso o Asamblea",
+        "key_slug": "Labor",
+        "key_slug_value": "20",
         "values": [
             {
                 "label": "Venezuela",
@@ -68,6 +72,8 @@ long_short_data = [
             "Presupuesto_9": "17%"
         },
         "key": "Presupuesto y Gesti\u00f3n Administrativa",
+        "key_slug": "Presupuesto",
+        "key_slug_value": "7",
         "values": [
             {
                 "label": "Venezuela",
@@ -90,6 +96,8 @@ long_short_data = [
             "Participacion_9": "80%\n"
         },
         "key": "Participaci\u00f3n, atenci\u00f3n ciudadana y rendici\u00f3n de cuentas",
+        "key_slug": "Participacion",
+        "key_slug_value": "25",
         "values": [
             {
                 "label": "Venezuela",

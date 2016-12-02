@@ -74,6 +74,8 @@ def file_parser(filename):
 			values = {}
 
 			country_data['key'] = descriptions[header_name]['label']
+			country_data['key_slug'] = header_name
+			country_data['key_slug_value'] = value.strip('%' )
 			country_data['color'] = descriptions[header_name]['color']
 			value = int(value.strip('%' ))
 			values['value'] = float(value)/100
