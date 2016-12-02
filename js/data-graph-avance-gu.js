@@ -6,7 +6,7 @@ long_short_data_gu = [
       { 
         "label" : "Normatividad" ,
         "n_palabras" : 2160 ,
-        "value" : 0.49
+        "value" : 0.51
       } ,
       { 
         "label" : "Labor del Congreso" ,

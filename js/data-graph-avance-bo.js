@@ -6,7 +6,7 @@ long_short_data_bo = [
       { 
         "label" : "Normatividad" ,
         "n_palabras" : 2160 ,
-        "value" : 0.34
+        "value" : 0.37
       } ,
       { 
         "label" : "Labor del Congreso" ,

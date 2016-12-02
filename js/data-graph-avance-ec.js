@@ -6,12 +6,12 @@ long_short_data_ec = [
       { 
         "label" : "Normatividad" ,
         "n_palabras" : 2160 ,
-        "value" : 0.62
+        "value" : 0.63
       } ,
       { 
         "label" : "Labor del Congreso" ,
         "n_palabras" : 1679 ,
-        "value" : 0.48
+        "value" : 0.47
       } ,
       { 
         "label" : "Presupuesto y Gestión" ,

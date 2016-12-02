@@ -6,7 +6,7 @@ long_short_data_co = [
       { 
         "label" : "Normatividad" ,
         "n_palabras" : 2160 ,
-        "value" : 0.42
+        "value" : 0.44
       } ,
       { 
         "label" : "Labor del Congreso" ,
@@ -47,7 +47,7 @@ long_short_data_co = [
       { 
         "label" : "Participación Ciudadana" ,
         "n_palabras" : 1178 ,
-        "value" : 0.52
+        "value" : 0.53
       }
     ]
   }

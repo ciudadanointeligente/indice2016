@@ -14,8 +14,8 @@ long_short_data = [
             "Normatividad_4": "0%",
             "Normatividad_5": "50%",
             "Normatividad_6": "75%",
-            "Normatividad_7": "67%",
-            "Normatividad_8": "75%",
+            "Normatividad_7": "0%",
+            "Normatividad_8": "50%",
             "Normatividad_9": "90%"
         },
         "key": "Normatividad",
@@ -24,15 +24,15 @@ long_short_data = [
         "values": [
             {
                 "label": "Venezuela",
-                "n_palabras": 44,
-                "value": 0.44
+                "n_palabras": 38,
+                "value": 0.38
             }
         ]
     },
     {
         "color": "#FF847C",
         "desgloce": {
-            "Labor_1": "46%",
+            "Labor_1": "42%",
             "Labor_10": "38%",
             "Labor_11": "0%",
             "Labor_12": "0%",
@@ -53,7 +53,7 @@ long_short_data = [
             {
                 "label": "Venezuela",
                 "n_palabras": 20,
-                "value": 0.2
+                "value": 0.20
             }
         ]
     },
@@ -87,10 +87,10 @@ long_short_data = [
         "desgloce": {
             "Participacion_1": "0%",
             "Participacion_2": "0%",
-            "Participacion_3": "15%",
-            "Participacion_4": "40%",
+            "Participacion_3": "55%",
+            "Participacion_4": "45%",
             "Participacion_5": "0%",
-            "Participacion_6": "3%",
+            "Participacion_6": "5%",
             "Participacion_7": "5%",
             "Participacion_8": "83%",
             "Participacion_9": "80%\n"
@@ -101,8 +101,8 @@ long_short_data = [
         "values": [
             {
                 "label": "Venezuela",
-                "n_palabras": 25,
-                "value": 0.25
+                "n_palabras": 30,
+                "value": 0.30
             }
         ]
     }

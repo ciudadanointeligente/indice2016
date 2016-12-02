@@ -6,12 +6,12 @@ long_short_data = [
       { 
         "label" : "Argentina" ,
         "n_palabras" : 2160 ,
-        "value" : 0.34
+        "value" : 0.35
       } ,
       { 
         "label" : "Bolivia" ,
         "n_palabras" : 1679 ,
-        "value" : 0.28
+        "value" : 0.29
       } ,
       { 
         "label" : "Chile" ,
@@ -31,7 +31,7 @@ long_short_data = [
       { 
         "label" : "Guatemala" ,
         "n_palabras" : 806 ,
-        "value" : 0.50
+        "value" : 0.51
       } ,
       { 
         "label" : "México" ,
@@ -46,7 +46,7 @@ long_short_data = [
       { 
         "label" : "Venezuela" ,
         "n_palabras" : 649 ,
-        "value" : 0.25
+        "value" : 0.19
       }
     ]
   },
@@ -67,7 +67,7 @@ long_short_data = [
       { 
         "label" : "Chile" ,
         "n_palabras" : 42 ,
-        "value" : 0.62
+        "value" : 0.64
       },
       { 
         "label" : "Colombia" ,
@@ -117,7 +117,7 @@ long_short_data = [
       { 
         "label" : "Venezuela" ,
         "n_palabras" : 1947 ,
-        "value" : 0.20
+        "value" : 0.21
       }
     ]
   }

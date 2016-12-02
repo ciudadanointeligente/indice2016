@@ -2,7 +2,7 @@ long_short_data = [
     {
         "color": "#FECEA8",
         "desgloce": {
-            "Normatividad_1": "75%",
+            "Normatividad_1": "88%",
             "Normatividad_10": "100%",
             "Normatividad_11": "N/A",
             "Normatividad_12": "33%",
@@ -32,7 +32,7 @@ long_short_data = [
     {
         "color": "#FF847C",
         "desgloce": {
-            "Labor_1": "87%",
+            "Labor_1": "88%",
             "Labor_10": "76%",
             "Labor_11": "0%",
             "Labor_12": "N/A",
@@ -41,8 +41,8 @@ long_short_data = [
             "Labor_3": "76%",
             "Labor_4": "70%",
             "Labor_5": "N/A",
-            "Labor_6": "76%",
-            "Labor_7": "70%",
+            "Labor_6": "77%",
+            "Labor_7": "72%",
             "Labor_8": "68%",
             "Labor_9": "N/A"
         },
@@ -53,7 +53,7 @@ long_short_data = [
             {
                 "label": "Colombia",
                 "n_palabras": 60,
-                "value": 0.6
+                "value": 0.60
             }
         ]
     },
@@ -61,7 +61,7 @@ long_short_data = [
         "color": "#ED5665",
         "desgloce": {
             "Presupuesto_1": "100%",
-            "Presupuesto_10": "65%",
+            "Presupuesto_10": "67%",
             "Presupuesto_2": "78%",
             "Presupuesto_3": "N/A",
             "Presupuesto_4": "52%",

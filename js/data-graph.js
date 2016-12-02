@@ -66,7 +66,7 @@ long_short_data = [
       { 
         "label" : "Venezuela" ,
         "n_palabras" : 649 ,
-        "value" : 0.44
+        "value" : 0.38
       }
     ]
   },
@@ -158,7 +158,7 @@ long_short_data = [
       { 
         "label" : "Chile" ,
         "n_palabras" : 506 ,
-        "value" : 0.55
+        "value" : 0.61
       },
       { 
         "label" : "Colombia" ,
@@ -183,7 +183,7 @@ long_short_data = [
       { 
         "label" : "México" ,
         "n_palabras" : 339 ,
-        "value" : 0.38
+        "value" : 0.39
       }, 
       { 
         "label" : "Panamá" ,
@@ -234,7 +234,7 @@ long_short_data = [
       { 
         "label" : "Colombia" ,
         "n_palabras" : 522 ,
-        "value" : 0.52
+        "value" : 0.53
       },
       { 
         "label" : "Costa Rica" ,
@@ -279,7 +279,7 @@ long_short_data = [
       { 
         "label" : "Venezuela" ,
         "n_palabras" : 0 ,
-        "value" : 0.25
+        "value" : 0.30
       }
     ]
   }

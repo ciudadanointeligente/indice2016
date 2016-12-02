@@ -6,7 +6,7 @@ long_short_data_cl = [
       { 
         "label" : "Normatividad" ,
         "n_palabras" : 2160 ,
-        "value" : 0.62
+        "value" : 0.61
       } ,
       { 
         "label" : "Labor del Congreso" ,
@@ -16,7 +16,7 @@ long_short_data_cl = [
       { 
         "label" : "Presupuesto y Gestión" ,
         "n_palabras" : 904 ,
-        "value" : 0.59
+        "value" : 0.61
       } ,
       { 
         "label" : "Participación Ciudadana" ,
@@ -42,7 +42,7 @@ long_short_data_cl = [
       { 
         "label" : "Presupuesto y Gestión" ,
         "n_palabras" : 42 ,
-        "value" : 0.55
+        "value" : 0.61
       },
       { 
         "label" : "Participación Ciudadana" ,
