@@ -1,87 +1,109 @@
-long_short_data = [ 
-  {
-    key: 'Normatividad',
-    color: '#FECEA8',
-    values: [
-      { 
-        "label" : "Ecuador" ,
-        "n_palabras" : 62 ,
-        "value" : 0.62
-      }
-    ]
-  },
-  {
-    key: 'Labor del Congreso o Asamblea',
-    color: '#FF847C',
-    values: [
-      { 
-        "label" : "Ecuador" ,
-        "n_palabras" : 46 ,
-        "value" : 0.46
-      }
-    ]
-  },
-  {
-    key: 'Presupuesto y Gestión Administrativa',
-    color: '#ED5665',
-    values: [
-      { 
-        "label" : "Ecuador" ,
-        "n_palabras" : 47 ,
-        "value" : 0.47
-      }
-    ]
-  },
-  {
-    key: 'Participación, atención ciudadana y rendición de cuentas',
-    color: '#45171D',
-    values: [
-      { 
-        "label" : "Ecuador" ,
-        "n_palabras" : 73 ,
-        "value" : 0.73
-      },
-    ]
-  }
-];
-
-
-var chart;
-nv.addGraph(function() {
-  chart = nv.models.multiBarHorizontalChart()
-      .x(function(d) { return d.label })
-      .y(function(d) { return d.value })
-      .margin({top: 0, right: 0, bottom: 0, left: 0})
-      .showValues(true)
-      // .showLegend(false)
-      .tooltip(function(key, x, y, e, graph, n_palabras, link_ley) {
-        var text_for_twitter = encodeURIComponent(y + '% de cumplimiento en ' + x + ',');
-        return '<p>' + e.point.label + ' tiene un ' + e.point.n_palabras + '% de transparencia en ' + key + '</p>'
-               // '<p> De las ' + e.point.n_promesas + ' promesas en ' + x + ' entre ' + key + '.</p>' +
-               // '<div><a target="_blank" href="'+ e.point.link_ley +'">¿Cómo cumple la promesa? </a></div>'
-               // '<div style="float:right;"><a href="https://twitter.com/share?text='+text_for_twitter+'&via=ciudadanoi&hashtags=21mayo" target="_blank" class="twitter-share-button"><i class="fa fa-twitter"></i> Twittear</a></div>'
-    })
-      // .barColor(d3.scale.category20c().range())
-      .transitionDuration(250)
-      .stacked(false)
-      .showControls(false);
-
-  chart.valueFormat(d3.format('%'));
-  chart.xAxis
-      .showMaxMin(false)
-
-  // chart.yAxis
-  //     .tickFormat(d3.format('%'));
-
-  chart.forceY([0,1]);
-
-  d3.select('#chartEcuador svg')
-      .datum(long_short_data)
-      .call(chart);
-
-  nv.utils.windowResize(chart.update);
-
-  chart.dispatch.on('stateChange', function(e) { nv.log('New State:', JSON.stringify(e)); });
-
-  return chart;
-});
+long_short_data = [
+    {
+        "color": "#FECEA8",
+        "desgloce": {
+            "Normatividad_1": "63%",
+            "Normatividad_10": "100%",
+            "Normatividad_11": "0%",
+            "Normatividad_12": "67%",
+            "Normatividad_13": "70%",
+            "Normatividad_14": "25%",
+            "Normatividad_15": "33%",
+            "Normatividad_2": "50%",
+            "Normatividad_3": "0%",
+            "Normatividad_4": "100%",
+            "Normatividad_5": "100%",
+            "Normatividad_6": "100%",
+            "Normatividad_7": "92%",
+            "Normatividad_8": "65%",
+            "Normatividad_9": "74%"
+        },
+        "key": "Normatividad",
+        "key_slug": "Normatividad",
+        "key_slug_value": "63",
+        "values": [
+            {
+                "label": "Ecuador",
+                "n_palabras": 63,
+                "value": 0.63
+            }
+        ]
+    },
+    {
+        "color": "#FF847C",
+        "desgloce": {
+            "Labor_1": "58%",
+            "Labor_10": "71%",
+            "Labor_11": "0%",
+            "Labor_12": "66%",
+            "Labor_13": "0%",
+            "Labor_2": "69%",
+            "Labor_3": "10%",
+            "Labor_4": "72%",
+            "Labor_5": "59%",
+            "Labor_6": "70%",
+            "Labor_7": "66%",
+            "Labor_8": "63%",
+            "Labor_9": "0%"
+        },
+        "key": "Labor del Congreso o Asamblea",
+        "key_slug": "Labor",
+        "key_slug_value": "46",
+        "values": [
+            {
+                "label": "Ecuador",
+                "n_palabras": 46,
+                "value": 0.46
+            }
+        ]
+    },
+    {
+        "color": "#ED5665",
+        "desgloce": {
+            "Presupuesto_1": "25%",
+            "Presupuesto_10": "0%",
+            "Presupuesto_2": "78%",
+            "Presupuesto_3": "N/A",
+            "Presupuesto_4": "71%",
+            "Presupuesto_5": "55%",
+            "Presupuesto_6": "63%",
+            "Presupuesto_7": "38%",
+            "Presupuesto_8": "58%",
+            "Presupuesto_9": "39%"
+        },
+        "key": "Presupuesto y Gesti\u00f3n Administrativa",
+        "key_slug": "Presupuesto",
+        "key_slug_value": "47",
+        "values": [
+            {
+                "label": "Ecuador",
+                "n_palabras": 47,
+                "value": 0.47
+            }
+        ]
+    },
+    {
+        "color": "#45171D",
+        "desgloce": {
+            "Participacion_1": "56%",
+            "Participacion_2": "92%",
+            "Participacion_3": "72%",
+            "Participacion_4": "65%",
+            "Participacion_5": "75%",
+            "Participacion_6": "55%",
+            "Participacion_7": "67%",
+            "Participacion_8": "100%",
+            "Participacion_9": "80%\n"
+        },
+        "key": "Participaci\u00f3n, atenci\u00f3n ciudadana y rendici\u00f3n de cuentas",
+        "key_slug": "Participacion",
+        "key_slug_value": "73",
+        "values": [
+            {
+                "label": "Ecuador",
+                "n_palabras": 73,
+                "value": 0.73
+            }
+        ]
+    }
+]

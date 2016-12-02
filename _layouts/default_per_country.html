@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+  
+    {% include header.html %}
+
+    <div class="container">
+    	<h1>{{page.country_name}}</h1>
+<div class="legend">
+    En esta página encontrarás los resultados obtenidos por el Congreso de {{page.country_name}} en 2016.
+    <br>El gráfico muestra los porcentajes de cada una de las cuatro dimensiones evaluadas y la tabla el valor específico de cada indicador.
+  </div>
+<br>
+<a href="https://drive.google.com/open?id=0BwKVMow_jZxeRV9MZDFqZFg2eEE">Revisa sus respuestas (ir a cuestionario)</a>
+
+<!-- CHART -->
+<style>
+  body {
+    overflow-y:scroll;
+  }
+
+  text {
+    font: 12px sans-serif;
+  }
+
+  .chart_country {
+    margin-top: 0px;
+    min-width: 100px;
+    min-height: 100px;
+  }
+
+  .chart_country svg {
+    height: 300px;
+  }
+</style>
+
+<!-- GRAFICO -->
+
+
+<div>
+  <a id="graph-section"></a>
+    <div class="legend">
+    <br>
+    Haz click para activar o desactivar dimensiones y doble click para visualizar solo una de ellas
+  </div>
+  <div id="chart" class='chart_country with-3d-shadow with-transitions'><svg></svg></div>
+
+<!-- FIN GRAFICO -->
+<br />
+  <!-- D1 Normatividad -->
+<div class="table-responsive">
+    <table id="myTable" class="tablesorter table table-striped table-bordered">
+      <thead>
+        <tr>
+          <th class="danger">Normatividad</th>
+          <th class="danger Normatividad"></th>
+          <th class="warning">Labor del Congreso o Asamblea</th>
+          <th class="warning Labor"></th>
+          <th class="info">Presupuesto y Gestión Administrativa</th>
+          <th class="info Presupuesto"></th>
+          <th class="success">Mecanismos de participación, atención ciudadana y rendición de cuentas</th>
+          <th class="success Participacion"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1.1. Exhaustividad y Publicidad del marco normativo</td>
+          <td class="Normatividad_1">75%</td>
+          <td>2.1. Documento con los temas a tratar en la sesión de los plenos</td>
+          <td class="Labor_1">70%</td>
+          <td>3.1. Publicación del presupuesto del Congreso o Asamblea Nacional</td>
+          <td class="Presupuesto_1">N/A</td>
+          <td>4.1. Existencia de una oficina de información dentro del Congreso o Asamblea Nacional</td>
+          <td class="Participacion_1">11%</td>
+        </tr>
+        <tr>
+          <td>1.2. Existencia regulación transparencia y AI en el Congreso</td>
+          <td class="Normatividad_2">25%</td>
+          <td>2.2. Documento que registre la memoria legislativa en los plenos</td>
+          <td class="Labor_2">72%</td>
+          <td>3.2. Informes sobre la ejecución del presupuesto del Congreso o Asamblea Nacional</td>
+          <td class="Presupuesto_2">64%</td>
+          <td>4.2. Existencia de un mecanismo por el cual se resuelven conflictos al acceso a la información pública</td>
+          <td class="Participacion_2">0%</td>
+        </tr>
+        <tr>
+          <td>1.3. Reglamentación del cabildeo o Lobbying</td>
+          <td class="Normatividad_3">0%</td>
+          <td>2.3. Asistencia a las sesiones de los plenos</td>
+          <td class="Labor_3">84%</td>
+          <td>3.3. Publicación de la ejecución del gasto de las fracciones parlamentarias</td>
+          <td class="Presupuesto_3">0%</td>
+          <td>4.3. Canal de televisión del Congreso o de la Asamblea Nacional</td>
+          <td class="Participacion_3">84%</td>
+        </tr>
+        <tr>
+          <td>1.4. Registro de intereses</td>
+          <td class="Normatividad_4">83%</td>
+          <td>2.4. Votaciones nominales de los plenos</td>
+          <td class="Labor_4">80%</td>
+          <td>3.4. Auditorías internas y externas practicadas en el Congreso o Asamblea Nacional</td>
+          <td class="Presupuesto_4">33%</td>
+          <td>4.4. Publicación de información en páginas web</td>
+          <td class="Participacion_4">63%</td>
+        </tr>
+        <tr>
+          <td>1.5. Publicación de los temas a tratar en la sesión del pleno</td>
+          <td class="Normatividad_5">100%</td>
+          <td>2.5. Versiones estenográficas de las sesiones de los plenos</td>
+          <td class="Labor_5">81%</td>
+          <td>3.5. Publicación de los salarios y otras prestaciones de los congresistas o asambleístas</td>
+          <td class="Presupuesto_5">20%</td>
+          <td>4.5. Canales de información y comunicación del Congreso o Asamblea Nacional</td>
+          <td class="Participacion_5">50%</td>
+        </tr>
+        <tr>
+          <td>1.6. Obligación de registrar actividad plenaria difusión</td>
+          <td class="Normatividad_6">75%</td>
+          <td>2.6. Conformación de las comisiones y su agenda</td>
+          <td class="Labor_6">78%</td>
+          <td>3.6. Estructura administrativa del Congreso o Asamblea Nacional</td>
+          <td class="Presupuesto_6">40%</td>
+          <td>4.6. Publicación de información sobre actividades de las y los legisladores</td>
+          <td class="Participacion_6">15%</td>
+        </tr>
+        <tr>
+          <td>1.7. Publicación de los temas a tratar en las sesiones de comisiones</td>
+          <td class="Normatividad_7">75%</td>
+          <td>2.7. Asistencia a las sesiones de comisiones</td>
+          <td class="Labor_7">29%</td>
+          <td>3.7. Asesores de los congresistas o asambleístas</td>
+          <td class="Presupuesto_7">11%</td>
+          <td>4.7. Publicación de información de las y los legisladores</td>
+          <td class="Participacion_7">0%</td>
+        </tr>
+        <tr>
+          <td>1.8. Registro de actividad en comisiones</td>
+          <td class="Normatividad_8">70%</td>
+          <td>2.8. Votaciones de las sesiones de comisiones</td>
+          <td class="Labor_8">78%</td>
+          <td>3.8. Publicación de los estados financieros por viajes de los legisladores por motivo de trabajo (dentro y fuera del país)</td>
+          <td class="Presupuesto_8">28%</td>
+          <td>4.8. Ingreso de medios de comunicación al recinto del Congreso o Asamblea</td>
+          <td class="Participacion_8">67%</td>
+        </tr>
+        <tr>
+          <td>1.9. Publicidad de los gastos y fiscalización del Congreso</td>
+          <td class="Normatividad_9">96%</td>
+          <td>2.9. Versiones estenográficas de las sesiones de las comisiones</td>
+          <td class="Labor_9">0%</td>
+          <td>3.9. Publicación de contratación pública</td>
+          <td class="Presupuesto_9">48%</td>
+          <td>4.9. Participación ciudadana</td>
+          <td class="Participacion_9">0%</td>
+        </tr>
+        <tr>
+          <td>1.10. Oficina de vinculación y atención ciudadana en el Congreso o Asamblea</td>
+          <td class="Normatividad_10">100%</td>
+          <td>2.10. Documento que registre la memoria legislativa en las comisiones</td>
+          <td class="Labor_10">46%</td>
+          <td>3.10. Publicación de llamados a concurso del personal del Congreso o Asamblea Nacional</td>
+          <td class="Presupuesto_10">0%</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>1.11. Oficinas sub-nacionales de vinculación y atención ciudadana</td>
+          <td class="Normatividad_11">0%</td>
+          <td>2.11. Asesorías externas</td>
+          <td class="Labor_11">0%</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>1.12. Canal de Televisión</td>
+          <td class="Normatividad_12">100%</td>
+          <td>2.12. Publicación de información de viajes</td>
+          <td class="Labor_12">68%</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>1.13. Informes de gestión de las y los legisladores</td>
+          <td class="Normatividad_13">0%</td>
+          <td>2.13. Registro de obsequios a los congresistas</td>
+          <td class="Labor_13">0%</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>1.14. Información personal de las y los legisladores</td>
+          <td class="Normatividad_14">0%</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>1.15. Existencia de una regulación e instancia para la ética parlamentaria</td>
+          <td class="Normatividad_15">50%</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+<script type="text/javascript" src="{{ site.baseurl }}js/d3.v3.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}js/nv.d3.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}js/tooltip.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}{{page.slug}}/data-graph-{{page.slug}}.js"></script>
+<script type="text/javascript">
+
+
+function desglozar(){
+	$.each(long_short_data,function(index, value){
+		$.each(value.desgloce, function(index, value){
+			$('.' + index).text(value);
+			console.log(index, value)
+		})
+    console.log(value.key_slug, value.key_slug_value);
+    $('.' + value.key_slug).text(value.key_slug_value + '%')
+	})
+}
+desglozar();
+var chart;
+nv.addGraph(function() {
+  chart = nv.models.multiBarHorizontalChart()
+      .x(function(d) { return d.label })
+      .y(function(d) { return d.value })
+      .margin({top: 0, right: 0, bottom: 0, left: 0})
+      .showValues(true)
+      // .showLegend(false)
+      .tooltip(function(key, x, y, e, graph, n_palabras, link_ley) {
+        var text_for_twitter = encodeURIComponent(y + '% de cumplimiento en ' + x + ',');
+        return '<p>' + e.point.label + ' tiene un ' + e.point.n_palabras + '% de transparencia en ' + key + '</p>'
+               // '<p> De las ' + e.point.n_promesas + ' promesas en ' + x + ' entre ' + key + '.</p>' +
+               // '<div><a target="_blank" href="'+ e.point.link_ley +'">¿Cómo cumple la promesa? </a></div>'
+               // '<div style="float:right;"><a href="https://twitter.com/share?text='+text_for_twitter+'&via=ciudadanoi&hashtags=21mayo" target="_blank" class="twitter-share-button"><i class="fa fa-twitter"></i> Twittear</a></div>'
+    })
+      // .barColor(d3.scale.category20c().range())
+      .transitionDuration(250)
+      .stacked(false)
+      .showControls(false);
+
+  chart.valueFormat(d3.format('%'));
+  chart.xAxis
+      .showMaxMin(false)
+
+  // chart.yAxis
+  //     .tickFormat(d3.format('%'));
+
+  chart.forceY([0,1]);
+
+  d3.select('#chart svg')
+      .datum(long_short_data)
+      .call(chart);
+
+  nv.utils.windowResize(chart.update);
+
+  chart.dispatch.on('stateChange', function(e) { nv.log('New State:', JSON.stringify(e)); });
+
+  return chart;
+});
+
+</script>
+<script>
+  $(document).ready(function()
+      {
+          $("#myTable").tablesorter({
+                    // pass the headers argument and assing a object
+        headers: {
+            // assign the secound column (we start counting zero)
+            0: {
+                // disable it by setting the property sorter to false
+                sorter: false
+            },
+            // assign the third column (we start counting zero)
+            2: {
+                // disable it by setting the property sorter to false
+                sorter: false
+            },
+            4: {
+                // disable it by setting the property sorter to false
+                sorter: false
+            },
+            6: {
+                // disable it by setting the property sorter to false
+                sorter: false
+            }
+        }
+          });
+      }
+  );
+</script>
+
+    </div>
+
+    {% include footer.html %}
+
+    </body>
+</html>

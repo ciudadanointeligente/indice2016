@@ -1,87 +1,109 @@
-long_short_data = [ 
-  {
-    key: 'Normatividad',
-    color: '#FECEA8',
-    values: [
-      { 
-        "label" : "Venezuela" ,
-        "n_palabras" : 44 ,
-        "value" : 0.44
-      }
-    ]
-  },
-  {
-    key: 'Labor del Congreso o Asamblea',
-    color: '#FF847C',
-    values: [
-      { 
-        "label" : "Venezuela" ,
-        "n_palabras" : 20 ,
-        "value" : 0.20
-      }
-    ]
-  },
-  {
-    key: 'Presupuesto y Gestión Administrativa',
-    color: '#ED5665',
-    values: [
-      { 
-        "label" : "Venezuela" ,
-        "n_palabras" : 7 ,
-        "value" : 0.07
-      }
-    ]
-  },
-  {
-    key: 'Participación, atención ciudadana y rendición de cuentas',
-    color: '#45171D',
-    values: [
-      { 
-        "label" : "Venezuela" ,
-        "n_palabras" : 25 ,
-        "value" : 0.25
-      },
-    ]
-  }
-];
-
-
-var chart;
-nv.addGraph(function() {
-  chart = nv.models.multiBarHorizontalChart()
-      .x(function(d) { return d.label })
-      .y(function(d) { return d.value })
-      .margin({top: 0, right: 0, bottom: 0, left: 0})
-      .showValues(true)
-      // .showLegend(false)
-      .tooltip(function(key, x, y, e, graph, n_palabras, link_ley) {
-        var text_for_twitter = encodeURIComponent(y + '% de cumplimiento en ' + x + ',');
-        return '<p>' + e.point.label + ' tiene un ' + e.point.n_palabras + '% de transparencia en ' + key + '</p>'
-               // '<p> De las ' + e.point.n_promesas + ' promesas en ' + x + ' entre ' + key + '.</p>' +
-               // '<div><a target="_blank" href="'+ e.point.link_ley +'">¿Cómo cumple la promesa? </a></div>'
-               // '<div style="float:right;"><a href="https://twitter.com/share?text='+text_for_twitter+'&via=ciudadanoi&hashtags=21mayo" target="_blank" class="twitter-share-button"><i class="fa fa-twitter"></i> Twittear</a></div>'
-    })
-      // .barColor(d3.scale.category20c().range())
-      .transitionDuration(250)
-      .stacked(false)
-      .showControls(false);
-
-  chart.valueFormat(d3.format('%'));
-  chart.xAxis
-      .showMaxMin(false)
-
-  // chart.yAxis
-  //     .tickFormat(d3.format('%'));
-
-  chart.forceY([0,1]);
-
-  d3.select('#chartVenezuela svg')
-      .datum(long_short_data)
-      .call(chart);
-
-  nv.utils.windowResize(chart.update);
-
-  chart.dispatch.on('stateChange', function(e) { nv.log('New State:', JSON.stringify(e)); });
-
-  return chart;
-});
+long_short_data = [
+    {
+        "color": "#FECEA8",
+        "desgloce": {
+            "Normatividad_1": "63%",
+            "Normatividad_10": "100%",
+            "Normatividad_11": "0%",
+            "Normatividad_12": "100%",
+            "Normatividad_13": "37%",
+            "Normatividad_14": "0%",
+            "Normatividad_15": "0%",
+            "Normatividad_2": "0%",
+            "Normatividad_3": "0%",
+            "Normatividad_4": "0%",
+            "Normatividad_5": "50%",
+            "Normatividad_6": "75%",
+            "Normatividad_7": "67%",
+            "Normatividad_8": "75%",
+            "Normatividad_9": "90%"
+        },
+        "key": "Normatividad",
+        "key_slug": "Normatividad",
+        "key_slug_value": "44",
+        "values": [
+            {
+                "label": "Venezuela",
+                "n_palabras": 44,
+                "value": 0.44
+            }
+        ]
+    },
+    {
+        "color": "#FF847C",
+        "desgloce": {
+            "Labor_1": "46%",
+            "Labor_10": "38%",
+            "Labor_11": "0%",
+            "Labor_12": "0%",
+            "Labor_13": "0%",
+            "Labor_2": "17%",
+            "Labor_3": "71%",
+            "Labor_4": "4%",
+            "Labor_5": "17%",
+            "Labor_6": "26%",
+            "Labor_7": "20%",
+            "Labor_8": "4%",
+            "Labor_9": "17%"
+        },
+        "key": "Labor del Congreso o Asamblea",
+        "key_slug": "Labor",
+        "key_slug_value": "20",
+        "values": [
+            {
+                "label": "Venezuela",
+                "n_palabras": 20,
+                "value": 0.2
+            }
+        ]
+    },
+    {
+        "color": "#ED5665",
+        "desgloce": {
+            "Presupuesto_1": "0%",
+            "Presupuesto_10": "0%",
+            "Presupuesto_2": "25%",
+            "Presupuesto_3": "0%",
+            "Presupuesto_4": "0%",
+            "Presupuesto_5": "0%",
+            "Presupuesto_6": "27%",
+            "Presupuesto_7": "0%",
+            "Presupuesto_8": "0%",
+            "Presupuesto_9": "17%"
+        },
+        "key": "Presupuesto y Gesti\u00f3n Administrativa",
+        "key_slug": "Presupuesto",
+        "key_slug_value": "7",
+        "values": [
+            {
+                "label": "Venezuela",
+                "n_palabras": 7,
+                "value": 0.07
+            }
+        ]
+    },
+    {
+        "color": "#45171D",
+        "desgloce": {
+            "Participacion_1": "0%",
+            "Participacion_2": "0%",
+            "Participacion_3": "15%",
+            "Participacion_4": "40%",
+            "Participacion_5": "0%",
+            "Participacion_6": "3%",
+            "Participacion_7": "5%",
+            "Participacion_8": "83%",
+            "Participacion_9": "80%\n"
+        },
+        "key": "Participaci\u00f3n, atenci\u00f3n ciudadana y rendici\u00f3n de cuentas",
+        "key_slug": "Participacion",
+        "key_slug_value": "25",
+        "values": [
+            {
+                "label": "Venezuela",
+                "n_palabras": 25,
+                "value": 0.25
+            }
+        ]
+    }
+]

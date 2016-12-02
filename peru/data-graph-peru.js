@@ -1,87 +1,109 @@
-long_short_data = [ 
-  {
-    key: 'Normatividad',
-    color: '#FECEA8',
-    values: [
-      { 
-        "label" : "Perú" ,
-        "n_palabras" : 53 ,
-        "value" : 0.53
-      }
-    ]
-  },
-  {
-    key: 'Labor del Congreso o Asamblea',
-    color: '#FF847C',
-    values: [
-      { 
-        "label" : "Perú" ,
-        "n_palabras" : 48 ,
-        "value" : 0.48
-      }
-    ]
-  },
-  {
-    key: 'Presupuesto y Gestión Administrativa',
-    color: '#ED5665',
-    values: [
-      { 
-        "label" : "Perú" ,
-        "n_palabras" : 37 ,
-        "value" : 0.37
-      }
-    ]
-  },
-  {
-    key: 'Participación, atención ciudadana y rendición de cuentas',
-    color: '#45171D',
-    values: [
-      { 
-        "label" : "Perú" ,
-        "n_palabras" : 63 ,
-        "value" : 0.63
-      },
-    ]
-  }
-];
-
-
-var chart;
-nv.addGraph(function() {
-  chart = nv.models.multiBarHorizontalChart()
-      .x(function(d) { return d.label })
-      .y(function(d) { return d.value })
-      .margin({top: 0, right: 0, bottom: 0, left: 0})
-      .showValues(true)
-      // .showLegend(false)
-      .tooltip(function(key, x, y, e, graph, n_palabras, link_ley) {
-        var text_for_twitter = encodeURIComponent(y + '% de cumplimiento en ' + x + ',');
-        return '<p>' + e.point.label + ' tiene un ' + e.point.n_palabras + '% de transparencia en ' + key + '</p>'
-               // '<p> De las ' + e.point.n_promesas + ' promesas en ' + x + ' entre ' + key + '.</p>' +
-               // '<div><a target="_blank" href="'+ e.point.link_ley +'">¿Cómo cumple la promesa? </a></div>'
-               // '<div style="float:right;"><a href="https://twitter.com/share?text='+text_for_twitter+'&via=ciudadanoi&hashtags=21mayo" target="_blank" class="twitter-share-button"><i class="fa fa-twitter"></i> Twittear</a></div>'
-    })
-      // .barColor(d3.scale.category20c().range())
-      .transitionDuration(250)
-      .stacked(false)
-      .showControls(false);
-
-  chart.valueFormat(d3.format('%'));
-  chart.xAxis
-      .showMaxMin(false)
-
-  // chart.yAxis
-  //     .tickFormat(d3.format('%'));
-
-  chart.forceY([0,1]);
-
-  d3.select('#chartPeru svg')
-      .datum(long_short_data)
-      .call(chart);
-
-  nv.utils.windowResize(chart.update);
-
-  chart.dispatch.on('stateChange', function(e) { nv.log('New State:', JSON.stringify(e)); });
-
-  return chart;
-});
+long_short_data = [
+    {
+        "color": "#FECEA8",
+        "desgloce": {
+            "Normatividad_1": "63%",
+            "Normatividad_10": "100%",
+            "Normatividad_11": "0%",
+            "Normatividad_12": "33%",
+            "Normatividad_13": "37%",
+            "Normatividad_14": "0%",
+            "Normatividad_15": "100%",
+            "Normatividad_2": "50%",
+            "Normatividad_3": "94%",
+            "Normatividad_4": "83%",
+            "Normatividad_5": "0%",
+            "Normatividad_6": "100%",
+            "Normatividad_7": "0%",
+            "Normatividad_8": "55%",
+            "Normatividad_9": "78%"
+        },
+        "key": "Normatividad",
+        "key_slug": "Normatividad",
+        "key_slug_value": "53",
+        "values": [
+            {
+                "label": "Per\u00fa",
+                "n_palabras": 53,
+                "value": 0.53
+            }
+        ]
+    },
+    {
+        "color": "#FF847C",
+        "desgloce": {
+            "Labor_1": "56%",
+            "Labor_10": "59%",
+            "Labor_11": "0%",
+            "Labor_12": "71%",
+            "Labor_13": "0%",
+            "Labor_2": "82%",
+            "Labor_3": "77%",
+            "Labor_4": "76%",
+            "Labor_5": "0%",
+            "Labor_6": "74%",
+            "Labor_7": "70%",
+            "Labor_8": "60%",
+            "Labor_9": "0%"
+        },
+        "key": "Labor del Congreso o Asamblea",
+        "key_slug": "Labor",
+        "key_slug_value": "48",
+        "values": [
+            {
+                "label": "Per\u00fa",
+                "n_palabras": 48,
+                "value": 0.48
+            }
+        ]
+    },
+    {
+        "color": "#ED5665",
+        "desgloce": {
+            "Presupuesto_1": "0%",
+            "Presupuesto_10": "0%",
+            "Presupuesto_2": "69%",
+            "Presupuesto_3": "0%",
+            "Presupuesto_4": "50%",
+            "Presupuesto_5": "43%",
+            "Presupuesto_6": "46%",
+            "Presupuesto_7": "54%",
+            "Presupuesto_8": "50%",
+            "Presupuesto_9": "58%"
+        },
+        "key": "Presupuesto y Gesti\u00f3n Administrativa",
+        "key_slug": "Presupuesto",
+        "key_slug_value": "37",
+        "values": [
+            {
+                "label": "Per\u00fa",
+                "n_palabras": 37,
+                "value": 0.37
+            }
+        ]
+    },
+    {
+        "color": "#45171D",
+        "desgloce": {
+            "Participacion_1": "89%",
+            "Participacion_2": "0%",
+            "Participacion_3": "90%",
+            "Participacion_4": "68%",
+            "Participacion_5": "100%",
+            "Participacion_6": "66%",
+            "Participacion_7": "5%",
+            "Participacion_8": "83%",
+            "Participacion_9": "70%\n"
+        },
+        "key": "Participaci\u00f3n, atenci\u00f3n ciudadana y rendici\u00f3n de cuentas",
+        "key_slug": "Participacion",
+        "key_slug_value": "63",
+        "values": [
+            {
+                "label": "Per\u00fa",
+                "n_palabras": 63,
+                "value": 0.63
+            }
+        ]
+    }
+]
