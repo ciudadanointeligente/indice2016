@@ -65,7 +65,6 @@ Parser.prototype.parseHeaders = function(cb){
     this.parseFile(bound_parsing);
 
 };
-
 Parser.prototype.parseCountries = function(cb){
     var parse_countries = function(cb){
         var result = {};
@@ -111,6 +110,28 @@ Parser.prototype.parseCountries = function(cb){
     var bound_parse_countries = _.bind(parse_countries, this, cb);
     this.parseHeaders(bound_parse_countries);
 };
+Parser.prototype.createJsonFiles = function(path, cb){
+    var createFiles = function(path,cb , countries){
+        _.each(countries ,function(values, slug){
+            var p = path + slug + '/data-graph-' + slug + '.js';
+
+            if(!fs.existsSync(path+slug)){
+                fs.mkdirSync(path + slug);
+            }
+            
+            var data = 'var long_short_data = ' + values;
+            fs.writeFile(p, data, { flag: 'w' }, function (err) {
+                if (err) throw err;
+            });
+        });
+        if(typeof cb === 'function'){
+            return cb(countries);
+        }
+    }
+    var bound_create_files = _.bind(createFiles, this, path, cb);
+    this.parseCountries(bound_create_files);
+    
+}
 
 
 exports.parser = Parser

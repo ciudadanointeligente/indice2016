@@ -2,6 +2,7 @@ var assert = require('assert');
 var expected_argentina = require('./fixtures/data-graph-argentina.js');
 var Parser = require('../parser/parser.js').parser;
 var _ = require('lodash');
+var fs = require('fs');
 
 
 describe('Parser', function() {
@@ -59,7 +60,17 @@ describe('Parser', function() {
         });
 
 
-    })
+    });
+    it('creates json files based on the country', function(done){
+        var p = new Parser('./test/fixtures/datos.csv');
+        p.createJsonFiles('test/results/',function(countries){
+           fs.stat('test/results/argentina/data-graph-argentina.js', function(err, stats){
+               assert.equal(err, null);
+               done();
+           }) 
+        });
+
+    });
   });
 });
 
