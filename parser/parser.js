@@ -88,7 +88,7 @@ Parser.prototype.parseCountries = function(cb){
                 r.key_slug = column;
                 r.key_slug_value = values[this.headers[column]].replace('%', '');
                 var headers_searcher = function(c, value, index){
-                    if (index.startsWith(c + "_")){
+                    if (_.startsWith(index, c + '_')){
                         r.desgloce[index] = values[value];
                     }
                 }
