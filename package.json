@@ -20,15 +20,15 @@
     "url": "https://github.com/ciudadanointeligente/indice2016/issues"
   },
   "homepage": "https://github.com/ciudadanointeligente/indice2016#readme",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-mocha": "^3.0.1",
-    "gulp-util": "^3.0.7"
-  },
+  "devDependencies": {},
   "dependencies": {
     "csv": "^1.1.0",
     "fast-csv": "^2.3.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^3.0.1",
+    "gulp-util": "^3.0.7",
     "lodash": "^4.17.2",
-    "slugify": "^1.0.2"
+    "slugify": "^1.0.2",
+    "stream-transform": "^0.1.1"
   }
 }
