@@ -1,6 +1,5 @@
-
-
 exports.config = {
+    sourceCSV: './datos.csv',
     dimensions: {
         'Normatividad':{"color":"#FECEA8", "label":"Normatividad"},
         'Labor': {"color":"#FF847C", "label":"Labor del Congreso o Asamblea"},

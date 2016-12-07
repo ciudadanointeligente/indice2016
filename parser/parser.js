@@ -119,7 +119,7 @@ Parser.prototype.createJsonFiles = function(path, cb){
                 fs.mkdirSync(path + slug);
             }
             
-            var data = 'var long_short_data = ' + values;
+            var data = 'var long_short_data = ' + JSON.stringify(values, null, 2);
             fs.writeFile(p, data, { flag: 'w' }, function (err) {
                 if (err) throw err;
             });
