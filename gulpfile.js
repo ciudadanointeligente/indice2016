@@ -27,7 +27,7 @@ gulp.task('jekyll', () => {
 gulp.task('parseCsvIntoJsons', function(){
     
     var p = new Parser(config.sourceCSV);
-    p.parseCountries(function(countries){
+    p.createJsonFiles('', function(countries){
         var keys_ = _.keys(countries);
         _.forEach(keys_,function(country){
             console.log(country);
