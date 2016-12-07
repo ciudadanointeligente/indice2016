@@ -1,6 +1,7 @@
 var assert = require('assert');
 var expected_argentina = require('./fixtures/data-graph-argentina.js');
 var Parser = require('../parser/parser.js').parser;
+var _ = require('lodash');
 
 
 describe('Parser', function() {
@@ -37,6 +38,28 @@ describe('Parser', function() {
         });
 
     });
+    it('gets the right slugs for countries', function(done){
+        var p = new Parser('./test/fixtures/datos.csv');
+        var argentina_slug = p.slugify('Argentina');
+        assert.equal(argentina_slug, 'argentina');
+        var rep_dominicana = p.slugify('República Dominicana');
+        assert.equal(rep_dominicana, 'repdominicana');
+        var costarica = p.slugify('Costa Rica');
+        assert.equal(costarica, 'costarica');
+        var p = new Parser('./test/fixtures/datos.csv');
+        p.parseCountries(function(countries){
+            var arg = countries['argentina'];
+            var keys_ = _.keys(countries);
+            var i = _.indexOf(keys_, 'repdominicana');
+            assert.ok(i > -1);
+            var i = _.indexOf(keys_, 'costarica');
+            assert.ok(i > -1);
+
+            done();
+        });
+
+
+    })
   });
 });
 

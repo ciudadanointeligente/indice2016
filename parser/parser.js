@@ -3,14 +3,9 @@ var transform = require('stream-transform');
 var csv = require("fast-csv");
 var _ = require('lodash');
 var slugify = require('slugify');
-var dimensions_names = ['Normatividad', 'Labor', 'Presupuesto', 'Participacion'];
-var config = {
-    'Normatividad':{"color":"#FECEA8", "label":"Normatividad"},
-    'Labor': {"color":"#FF847C", "label":"Labor del Congreso o Asamblea"},
-    'Presupuesto': {"color":"#ED5665", "label":"Presupuesto y Gestión Administrativa"},
-    'Participacion': {"color":"#45171D", "label":"Participación, atención ciudadana y rendición de cuentas"}
+var config = require('../config').config;
+var dimensions_names = _.keys(config.dimensions);
 
-}
 
 var parseHeaders = function(lines, cb){
 }
@@ -19,6 +14,12 @@ function Parser(file, cb) {
 	this.file = file;
 };
 Parser.prototype.constructor = Parser;
+Parser.prototype.slugify = function(text){
+    if(_.indexOf(_.keys(config.slug_extras), text) > -1){
+        return config.slug_extras[text];
+    }
+    return slugify(text.toLowerCase(),'_');
+}
 Parser.prototype.parseFile = function(cb){
     var result = [];
     var on_end = function(cb){
@@ -70,15 +71,15 @@ Parser.prototype.parseCountries = function(cb){
         var result = {};
         var countries = _.slice(this.lines, 2);
         var each_country =  function(values, index){
-            var slug = slugify(values[0].toLowerCase(),'_');
+            var slug = this.slugify(values[0]);
             result[slug] = {};
             result[slug]['long_short_data'] = []
             
             var country_constructor = function(values, column, dimension){
                 var r = {
-                    "color" : config[column]['color'],
+                    "color" : config.dimensions[column]['color'],
                     "desgloce": {},
-                    "key": config[column]['label'],
+                    "key": config.dimensions[column]['label'],
                     "values": [{
                         "label": values[0],
                         "n_palabras": parseInt(values[this.headers[column]].replace('%', '')),
