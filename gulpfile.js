@@ -6,10 +6,6 @@ var config = require('./config').config;
 var _ = require('lodash');
 
 
-gulp.task('default', function() {
-  console.log('gulp');
-});
-
 gulp.task('jekyll', () => {
   var jekyll = child.spawn('jekyll', ['serve',
     '--incremental',
@@ -34,3 +30,5 @@ gulp.task('parseCsvIntoJsons', function(){
         });
     });
 })
+gulp.task('default', ['jekyll']);
+
