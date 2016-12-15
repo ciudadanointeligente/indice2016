@@ -4,6 +4,8 @@ var gutil = require('gulp-util');
 var Parser = require('./parser/parser.js').parser;
 var config = require('./config').config;
 var _ = require('lodash');
+var watch = require('gulp-watch');
+var runSequence = require('run-sequence');
 
 
 gulp.task('jekyll', () => {
@@ -29,6 +31,12 @@ gulp.task('parseCsvIntoJsons', function(){
             console.log(country);
         });
     });
-})
-gulp.task('default', ['jekyll']);
+});
+gulp.task('watch_datos', function () {
+    
+    watch('datos.csv', function(){
+        runSequence('parseCsvIntoJsons');
+    });
+});
+gulp.task('default', ['jekyll', 'watch_datos']);
 

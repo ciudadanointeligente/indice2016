@@ -27,7 +27,9 @@
     "gulp": "^3.9.1",
     "gulp-mocha": "^3.0.1",
     "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.11",
     "lodash": "^4.17.2",
+    "run-sequence": "^1.2.2",
     "slugify": "^1.0.2",
     "stream-transform": "^0.1.1"
   }
